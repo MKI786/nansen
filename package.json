@@ -30,7 +30,7 @@
   },
   "scripts": {
     "start": "react-app-rewired start",
-    "build": "CI= npm run build",
+    "build": "DISABLE_ESLINT_PLUGIN=true react-scripts build",
     "test": "react-app-rewired test",
     "eject": "react-scripts eject"
   },

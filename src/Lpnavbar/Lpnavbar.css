@@ -1,0 +1,75 @@
+.navbar .container-fluid .collapse ul{
+    margin-left: auto;
+}
+
+.navbar .container-fluid .collapse ul .nav-item .dropdown-menu{
+    width: 15rem;
+    overflow: hidden;
+    height: fit-content;
+    background-color:#001321;
+    color: white;
+    border: 1px solid gray;
+    border-radius: 10px 10px;
+}
+
+
+.navbar .container-fluid .collapse ul .nav-item .dropdown-menu .dropdown-item{
+
+color: white;
+cursor: pointer;
+white-space: wrap;
+border-radius: 10px 10px;
+transition: 0.2s ease;
+}
+
+.navbar .container-fluid .collapse ul .nav-item .dropdown-menu .dropdown-item p{
+    font-size: 15px;
+    color: rgb(180, 180, 180);
+}
+.navbar .container-fluid .collapse ul .nav-item .dropdown-menu .dropdown-item p:hover{
+    color: black;
+}
+
+.navbar .container-fluid .collapse ul .nav-item .dropdown-menu .dropdown-item:hover{
+    background-color: #00FFA7;
+    color: black;
+   
+}
+
+
+.navbar .container-fluid .collapse .lpart{
+    margin-left: auto;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+
+.navbar .container-fluid .collapse .lpart .cs{
+    cursor: pointer;
+}
+
+.navbar .container-fluid .collapse .lpart button{
+background-color: transparent;
+color: #00FFA7;;
+border: 1.5px solid #00FFA7;;
+border-radius: 17px 17px;
+padding: 0.6rem;
+transition: 0.4s ease;
+}
+
+.navbar .container-fluid .collapse .lpart button:hover{
+background-color: white;
+color: black;
+border: 1px solid black;
+}
+
+
+
+
+.navbar .container-fluid .collapse ul li a{
+    color: white;
+}

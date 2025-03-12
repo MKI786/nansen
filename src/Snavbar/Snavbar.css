@@ -1,0 +1,206 @@
+.snvbar{
+background-color:#001321;
+height:100%;
+width: 100%;
+color:#949FA8;
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+display: flex;
+flex-direction: column;
+overflow-x: hidden;
+}
+
+.snvbar .logo1 img{
+left: 0;
+}
+
+
+.snvbar .menu{
+    display:none;
+    border: 1px solid white;
+}
+
+.snvbar div{
+    cursor: pointer;
+    font-family:sans-serif; 
+}
+
+
+
+.snvbar .scrollportion{
+display: flex;
+flex-direction: column;
+gap: 0.3rem;
+height: 50%;
+overflow-y: auto;
+border-top:1px solid  #949FA8;
+
+}
+
+.snvbar .scrollportion ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.snvbar .scrollportion ul li{
+    padding: 0.3rem;
+    border-radius: 8px 8px;
+    transition: 0.2s ease;
+}
+
+.snvbar .scrollportion ul li:hover{
+    color: #00FFA7;
+    background-color: rgba(0, 255, 128, 0.37);
+}
+
+.active-link {
+    color: #00FFA7;
+    background-color: rgba(0, 255, 128, 0.37); 
+    border-radius: 8px 8px;
+  }
+  
+
+.snvbar .scrollportion::-webkit-scrollbar{
+    width: 4px;
+   
+}
+
+.snvbar .scrollportion::-webkit-scrollbar-track{
+    background-color:transparent;
+}
+
+.snvbar .scrollportion::-webkit-scrollbar-thumb{
+    background:rgb(156, 156, 156);
+  border-radius: 10px;
+}
+
+.snvbar .scrollportion::-webkit-scrollbar-thumb:hover{
+    background:rgb(156, 156, 156);
+}
+
+.snvbar .fixedportion{
+
+display: flex;
+flex-direction: column;
+border-top:1px solid  #949FA8;
+justify-content: center;
+padding: 1rem;
+height: fit-content;
+gap: 0.7rem;
+}
+
+.snvbar .fixedportion ul{
+
+list-style-type: none;
+padding: 0;
+margin: 0;
+display: flex;
+flex-direction: column;
+
+
+}
+
+.snvbar .fixedportion ul li{
+    border-radius: 8px 8px;
+    transition: 0.2s ease;
+    padding: 0.4rem;
+
+}
+
+.snvbar .fixedportion ul li:hover{
+    color: #00FFA7;
+    background-color: rgba(0, 255, 128, 0.37); 
+}
+
+.snvbar .fixedportion .buttons #subtn{
+    background-color:#00FFA7;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 8px 8px;
+    width: 100%;
+    cursor: pointer;
+}
+.snvbar .fixedportion .buttons #sibtn{
+    background-color:transparent;
+    color: white;
+    border: 1px solid gray;
+    padding: 0.5rem;
+    border-radius: 8px 8px;
+    width: 100%;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.snvbar .fixedportion .buttons #sibtn:hover{
+    color: #00FFA7;
+    background-color: rgba(0, 255, 128, 0.37); 
+}
+
+.snvbar .iconmenu{
+    display:none;
+}
+
+
+@media (max-width:1000px) {
+
+
+    .snvbar{
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.9);
+
+    }
+
+    .snvbar .scrollportion{
+        display: none;
+    }
+
+    .snvbar .fixedportion{
+        display: none;
+    }
+
+    .snvbar .iconmenu{
+        display: block;
+        height: fit-content;
+    }
+
+    .snvbar .iconmenu ul{
+        display:none;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        overflow-y: auto;
+    }
+    .snvbar .iconmenu ul li{
+        padding: 0.2rem;
+    }
+
+
+
+    .snvbar .iconmenu::-webkit-scrollbar{
+        width: 4px;
+       
+    }
+    
+    .snvbar .iconmenu::-webkit-scrollbar-track{
+        background-color:transparent;
+    }
+    
+    .snvbar .iconmenu::-webkit-scrollbar-thumb{
+        background:rgb(156, 156, 156);
+      border-radius: 10px;
+    }
+    
+    .snvbar .iconmenu::-webkit-scrollbar-thumb:hover{
+        background:rgb(156, 156, 156);
+    }
+    
+}

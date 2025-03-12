@@ -1,0 +1,38 @@
+.mdashboard{
+height:100vh;
+overflow: auto;
+width: 100%;
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+
+.mdashboard .r2{
+
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.mdashboard .r3{
+
+    width: 40%;
+    color: rgb(143, 143, 143);
+    text-align: center;
+    transition: 0.2s ease;
+}
+.mdashboard .r4{
+
+    color: rgb(143, 143, 143)
+}
+.mdashboard .r5{
+
+    width: 13rem;
+}
+
+@media (max-width:1000px) {
+    
+    .mdashboard .r3{
+        width: 90%;
+    }
+}

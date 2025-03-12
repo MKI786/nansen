@@ -1,0 +1,173 @@
+.Login{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+    width: 100%;
+    height:120lvh; 
+    overflow:hidden;
+    padding-bottom: 5rem;
+    }
+    
+    .Login .r2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .Login form{
+    
+    width: 25rem;
+    height:fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content:flex-start;
+    gap: 1rem;
+    }
+    
+    .Login form button{
+    
+        width: 100%;
+        background-color: #00FFA7;
+        color: black;
+        border: none;
+        border-radius: 7px 7px;
+        height: 2.5rem;
+    
+    }
+    
+    
+    .Login #sww{
+        width: 25rem;
+        background-color: transparent;
+        color: rgb(255, 255, 255);
+        border: none;
+        border-radius: 7px 7px;
+        height: 2.5rem;
+        border: 1px solid white;
+        cursor: pointer;
+        display:flex ;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    
+    }
+    
+    .Login #sww:hover{
+        background-color: #00ffa62a;
+        color: #00FFA7;
+    }
+    
+    
+    .Loginform .cpoint{
+    
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: #F2F4F5;
+    font-size: 15px;
+    font-family:inherit;
+    font-weight: 450;
+    }
+    
+    
+    .Login form .cpoint #c1{
+       
+        width: 20px;
+        height: 20px; 
+        cursor: pointer;
+    }
+    
+    .Login form .cpoint #c2{
+       
+        width: 38px;
+        height: 38px; 
+        cursor: pointer;
+    }
+    
+    .Login form input{
+        width: 100%;
+        background-color: transparent;
+        height: 2.5rem;
+        border: 1px solid gray;
+        border-radius: 8px 8px;
+        color: white;
+        outline: none;
+        padding: 1rem;
+    }
+    
+    
+    .Login form input:hover{
+        border: 1px solid rgb(190, 189, 189);
+        border: 1px solid #00FFA7;
+    
+    }
+
+    .modal .modal-dialog .modal-content .modal-body .mm{
+
+        border: 1px solid gray;
+        border-radius: 5px 5px;
+        width: 100%;
+        height: 4rem;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        padding: 1rem;
+        background-color:#001d31;
+    }
+
+    .modal .modal-dialog .modal-content .modal-body .mm:hover{
+        background-color:#003355;
+    }
+    .modal .modal-dialog .modal-content .modal-body .cw:hover{
+        background-color:#003355;
+    }
+    .modal .modal-dialog .modal-content .modal-body .ow:hover{
+        background-color:#003355;
+    }
+
+
+
+    .modal .modal-dialog .modal-content .modal-body .cw{
+        
+       
+        border: 1px solid gray;
+        border-radius: 5px 5px;
+        width: 100%;
+        height: 4rem;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        padding: 1rem;
+        background-color:#001d31;
+    }
+    .modal .modal-dialog .modal-content .modal-body .ow{
+        
+    
+        border: 1px solid gray;
+        border-radius: 5px 5px;
+        width: 100%;
+        height: 4rem;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        padding: 1rem;
+        background-color:#001d31;
+    }
+
+    @media (max-width:1000px) {
+
+        .Login form{
+            width: 90%;
+        }
+
+        .Login #sww{
+            width: 90%;
+        }
+        
+    }

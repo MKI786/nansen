@@ -1,0 +1,96 @@
+.signals{
+
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+    gap: 1rem;
+    background-color:#0C1219;
+}
+
+.signals .r1{
+
+width: 90%;
+height:fit-content;
+border-radius: 10px 10px;
+background-color: #121C26;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+gap: 1rem;
+
+}
+.signals .r1 .left{
+width: 35rem;
+height:20rem;
+display: flex;
+flex-direction: column;
+align-items:flex-start;
+justify-content:space-between;
+padding: 0.6rem;
+}
+
+.signals .r1 .left .upper{
+    width: 100%;
+display: flex;
+flex-direction: column;
+align-items:flex-start;
+justify-content: center;
+gap: 1rem;
+}
+
+.signals .r1 .left .upper .a1{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    gap: 0.5rem;
+    width: 100%;
+    color: #F2F4F5;
+    font-size: 12px;
+    font-weight: 500;
+}
+.signals .r1 .left .upper .a2{
+    width: 100%;
+}
+
+
+.signals .r1 .left .lower{
+    font-family: sans-serif;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    border-radius: 5px 5px;
+    transition: 0.2s ease;
+    padding: 0.3rem;
+}
+
+
+.signals .r1 .left .lower:hover{
+    color: #00FFA7;
+    background-color: #00ffa61e;
+
+}
+
+
+.signals .r1 .right{
+    width: 25rem;
+    height:20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ overflow: hidden;   
+
+}
+
+.signals .r1 .right img{
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}

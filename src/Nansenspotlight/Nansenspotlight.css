@@ -1,0 +1,369 @@
+.npl{
+
+width: 100%;
+height:fit-content;
+
+}
+
+
+.npl .search{
+    border: 1px solid gray;
+    width: 95%;
+    margin: auto;
+    height: 4rem;
+    border-radius: 8px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem;
+    gap: 1rem;
+    cursor: pointer;
+    transition: 0.1s ease;
+}
+
+.npl .search:hover{
+    background-color: rgba(128, 128, 128, 0.144);
+}
+
+.npl .menubar{
+width: 95%;
+margin: auto;
+height: 3rem;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+
+.npl .menubar .left{
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+
+.npl .menubar .left .select{
+border: 1px solid gray;
+border-radius: 8px 8px;
+padding: 0.2rem;
+display: flex;
+align-items: center;
+gap: 0.3rem;
+cursor: pointer;
+transition: 0.2s ease;
+}
+
+.npl .menubar .left .select #s{
+    background-color:#001321 ;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+.npl .menubar .left .select #s:hover{
+    color: #00FFA7;
+}
+
+
+.npl .menubar .left .select:hover{
+    color: #00FFA7;
+
+}
+
+.npl .menubar .left .type{
+border: 1px solid gray;
+border-radius: 8px 8px;
+padding: 0.2rem;
+display: flex;
+align-items: center;
+gap: 0.3rem;
+cursor: pointer;
+transition: 0.2s ease;
+}
+
+.npl .menubar .left .type:hover{
+
+    color: #00FFA7;
+    background-color: rgba(0, 255, 128, 0.041); 
+}
+
+.npl .menubar .right{
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.npl .menubar .right .setalert{
+border: 1px solid gray;
+border-radius: 8px 8px;
+padding: 0.2rem;
+display: flex;
+align-items: center;
+gap: 0.3rem;
+cursor: pointer;
+transition: 0.2s ease;
+}
+
+.npl .menubar .right .setalert:hover{
+    
+    color: #00FFA7;
+    background-color: rgba(0, 255, 128, 0.041); 
+}
+
+.npl .menubar .right .viewall{
+    border: 1px solid gray;
+    border-radius: 8px 8px;
+    padding: 0.2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.npl .menubar .right .viewall:hover{
+    color: #00FFA7;
+    background-color: rgba(0, 255, 128, 0.041); 
+}
+
+@media (max-width:1000px) {
+
+    .npl .menubar .right{
+        display: none;
+    }
+}
+
+
+.npl .mainslider{
+height:fit-content;
+width: 95%;
+margin: auto;
+overflow-x:hidden;
+white-space:nowrap;
+text-align:left;
+overflow-y: hidden;
+}
+
+
+.npl .mainslider .slider{
+    width: 100%;
+    transition: 0.7s ease-in-out;
+
+}
+
+.npl .mainslider .nav{
+    display:flex ;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 0.2rem;
+}
+
+.npl .mainslider .box{
+width: 20rem;
+height: 12rem;
+display: inline-block;
+margin-inline: 0.5rem;
+border-radius: 10px 10px;
+background-color: #17222e;
+padding: 0.7rem;
+overflow: hidden; /* Hide overflowing content */
+text-overflow: ellipsis; /* Show ellipsis for clipped text */
+
+}
+
+.npl .mainslider .box .content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    white-space:wrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide overflowing content */
+    text-overflow: ellipsis; /* Show ellipsis for clipped text */
+
+}
+.npl .mainslider .box .content .upper{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+.npl .mainslider .box .content .upper .u1{
+
+    width: 100%;
+    display:flex;
+    gap: 0.4rem;
+}
+
+.npl .mainslider .box .content .upper .u2{
+    width: 100%;
+    display: flex;
+    flex-wrap:wrap;
+    
+}
+
+.npl .mainslider .box .content .lower{
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    cursor: pointer;
+    border-radius: 8px 8px;
+    transition: 0.2s ease;
+}
+
+.npl .mainslider .box .content .lower:hover{
+    color: #00FFA7;
+    background-color: #00ffa60e;
+    border-radius: 8px 8px;
+}
+
+.npl .mainslider .nav .left button{
+
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px 5px;
+}
+
+.npl .mainslider .nav .left button:hover{
+    background-color: #00ffa61c;
+    color: #00FFA7;
+    border: 1px solid #00FFA7;
+}
+.npl .mainslider .nav .right button:hover{
+    background-color: #00ffa61c;
+    color: #00FFA7;
+    border: 1px solid #00FFA7;
+}
+.npl .mainslider .nav .right button{
+
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px 5px;
+}
+
+
+
+
+.npl .section1{
+width: 95%;
+margin: auto;
+height: fit-content;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content:space-around;
+gap: 1rem;
+
+}
+.npl .section1 .box1{
+    width: 32rem;
+    height: 37rem;
+    border-radius: 10px 10px;
+    background-color: #17222e;
+    overflow: auto;
+}
+.npl .section1 .box2{
+    width: 32rem;
+    height: 37rem;
+    border-radius: 10px 10px;
+    background-color: #17222e;
+}
+
+.npl .section1 .box2 .head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.6rem;
+    
+}
+
+.npl .section1 .box2 .head .left{
+    display: flex;
+    gap: 0.3rem;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.npl .section1 .box2 .head .right{
+    border: 1px solid white;
+    padding: 0.2rem;
+    border-radius: 6px 6px;
+}
+
+
+
+
+
+
+
+
+
+
+.npl .section2 .box1{
+    width: 32rem;
+    height: 36rem;
+    border-radius: 10px 10px;
+    background-color: #17222e;
+}
+
+.npl .section2 .box1 .head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.6rem;
+    
+}
+
+.npl .section2 .box1 .head .left{
+    display: flex;
+    gap: 0.3rem;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.npl .section2 .box1 .head .right{
+    border: 1px solid white;
+    padding: 0.2rem;
+    border-radius: 6px 6px;
+}
+
+.npl .section2{
+    width: 95%;
+    margin: auto;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-around;
+gap: 1rem;
+    
+    }
+    .npl .section2 .box1{
+        width: 32rem;
+        height: 37rem;
+        border-radius: 10px 10px;
+        background-color: #17222e;
+    }
+    .npl .section2 .box2{
+        width: 32rem;
+        height: 37rem;
+        border-radius: 10px 10px;
+        background-color: #17222e;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0.2rem;
+
+    }

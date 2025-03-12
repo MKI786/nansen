@@ -1,0 +1,117 @@
+.signup{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+    width: 100%;
+    height:120lvh;   
+    }
+    
+    .signup .r2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .signup form{
+    
+    width: 25rem;
+    height:fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content:flex-start;
+    gap: 1rem;
+    }
+    
+    .signup form button{
+    
+        width: 100%;
+        background-color: #00FFA7;
+        color: black;
+        border: none;
+        border-radius: 7px 7px;
+        height: 2.5rem;
+    
+    }
+    
+    
+    .signup #sww{
+        width: 25rem;
+        background-color: transparent;
+        color: rgb(255, 255, 255);
+        border: none;
+        border-radius: 7px 7px;
+        height: 2.5rem;
+        border: 1px solid white;
+        cursor: pointer;
+        display:flex ;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    
+    }
+    
+    .signup #sww:hover{
+        background-color: #00ffa62a;
+        color: #00FFA7;
+    }
+    
+    
+    .signup form .cpoint{
+    
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: #F2F4F5;
+    font-size: 15px;
+    font-family:inherit;
+    font-weight: 450;
+    }
+    
+    
+    .signup form .cpoint #c1{
+       
+        width: 20px;
+        height: 20px; 
+        cursor: pointer;
+    }
+    
+    .signup form .cpoint #c2{
+       
+        width: 38px;
+        height: 38px; 
+        cursor: pointer;
+    }
+    
+    .signup form input{
+        width: 100%;
+        background-color: transparent;
+        height: 2.5rem;
+        border: 1px solid gray;
+        border-radius: 8px 8px;
+        color: white;
+        outline: none;
+        padding: 1rem;
+    }
+    
+    
+    .signup form input:hover{
+        border: 1px solid rgb(190, 189, 189);
+        border: 1px solid #00FFA7;
+    
+    }
+
+
+    @media (max-width:1000px) {
+
+        .signup form{
+            width: 90%;
+        }
+
+        .signup #sww{
+            width: 90%;
+        }
+        
+    }

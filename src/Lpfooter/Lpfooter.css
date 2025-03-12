@@ -1,0 +1,149 @@
+.sectionf{
+
+    border-top: 2px solid #002641;
+    width: 100%;
+    height:fit-content;
+    background-color:#001321;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    align-items:flex-start;
+    justify-content: center;
+    gap: 3rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.sectionf .a0{
+    width: 10rem;
+    height: 10rem;
+overflow: hidden;
+display: flex;
+align-items:flex-start;
+justify-content: center;
+    }
+
+
+    .sectionf .a0 img{
+        width: 150px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        bottom:2.3rem;
+        position: relative;
+    }
+
+
+
+.sectionf .a1{
+
+height:fit-content;
+width: 10rem;
+display: flex;
+flex-direction: column;
+align-items:flex-start;
+justify-content: center;
+gap: 1rem;
+}
+
+.sectionf .a1 h3{
+    font-size: 19px;
+}
+.sectionf .a2 h3{
+    font-size: 19px;
+}
+.sectionf .a3 h3{
+    font-size: 19px;
+}
+.sectionf .a4 h3{
+    font-size: 19px;
+}
+
+
+.sectionf .a1 ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+    gap: 0.5rem;
+    color: rgb(143, 143, 143);
+}
+
+
+
+.sectionf .a2{
+
+    height:fit-content;
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+    gap: 1rem;
+    }
+    
+    .sectionf .a2 ul{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        justify-content: center;
+        gap: 0.5rem;
+        color: rgb(143, 143, 143);
+    }
+
+
+
+
+
+
+    .sectionf .a3{
+        height:fit-content;
+        width: 10rem;
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        justify-content: center;
+        gap: 1rem;
+        }
+        
+        .sectionf .a3 ul{
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items:flex-start;
+            justify-content: center;
+            gap: 0.5rem;
+            color: rgb(143, 143, 143);
+        }
+
+
+
+        .sectionf .a4{
+            height:fit-content;
+            width: 10rem;
+            display: flex;
+            flex-direction: column;
+            align-items:flex-start;
+            justify-content: center;
+            gap: 1rem;
+            }
+            
+            .sectionf .a4 ul{
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+                display: flex;
+                flex-direction: column;
+                align-items:flex-start;
+                justify-content: center;
+                gap: 0.5rem;
+                color: rgb(143, 143, 143);
+            }

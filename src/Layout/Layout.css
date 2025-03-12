@@ -21,7 +21,7 @@ background-color: #001321;
 
 .layout .rightside{
     background-color:#001321;
-    border: 1px solid rgb(255, 0, 0);
+    border: 1px solid transparent;
     width: 82%;
     height:fit-content;
     position: relative;
